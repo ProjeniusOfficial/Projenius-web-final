@@ -836,7 +836,7 @@ body {
   .top-categories .service-card { /* SCOPED */
     max-width: 250px; /* Adjust max-width */
     padding: 15px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .top-categories .service-card h3 { /* SCOPED */
