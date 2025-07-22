@@ -7,6 +7,7 @@ import {
   FaYoutube,
   FaWhatsapp,
   FaGithub,
+  FaLinkedin,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -83,6 +84,14 @@ const Footer: React.FC = () => {
                 <FaGithub />
                 <span>GitHub</span>
               </a>
+               <a
+                 href="https://www.linkedin.com/in/projenius-498444374/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+               >
+      <FaLinkedin />
+      <span>LinkedIn</span>
+    </a>
             </div>
           </div>
         </div>
