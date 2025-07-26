@@ -11,6 +11,7 @@ import Footer from './components/Footer.tsx';
 import ChatBot from './components/ChatBot.tsx';
 import ScrollToTop from './components/ScrollToTop.tsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.tsx';
+import OnlineUsers from './components/OnlineUsers.js';
 
 // ✅ Font Awesome import
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -64,7 +65,7 @@ const App: React.FC = () => {
           <Route path="/privacy" element={<PrivacyPolicy />} /> 
 
         </Routes>
-
+        <OnlineUsers/>
         <FloatingChatIcon />
       </div>
     </BrowserRouter>
